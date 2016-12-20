@@ -16,7 +16,7 @@ var _path2 = _interopRequireDefault(_path);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var debug = (0, _debug2.default)('feathers:configuration');
+var debug = (0, _debug2.default)('reazy:configuration');
 var config = require('config');
 var separator = _path2.default.sep;
 

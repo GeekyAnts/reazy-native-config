@@ -1,7 +1,7 @@
 import makeDebug from 'debug';
 import path from 'path';
 
-const debug = makeDebug('feathers:configuration');
+const debug = makeDebug('reazy:configuration');
 const config = require('config');
 const separator = path.sep;
 
