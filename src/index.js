@@ -1,34 +1,18 @@
 import makeDebug from 'debug';
+import config from 'react-native-config';
 
 const debug = makeDebug('reazy:configuration');
 
-export default module.exports = function (conf) {
-  return function () {
+export default module.exports = function () {
+  return function (serviceName) {
     let app = this;
 
     if (!app) {
       return {};
     }
 
-    if(process.env.NODE_ENV === 'production') {
-      if(conf)
-        conf = conf.production;
-    }
-    else {
-      if(conf)
-        conf = conf.default;
-    }
+    app.set(serviceName, config);
 
-    Object.keys(conf).forEach(name => {
-      let value = conf[name];
-      debug(`Setting ${name} configuration value to`, value);
-      app.set(name, value);
-    });
-
-    return {
-      myFunc: () => {
-        return 'test successful';
-      }
-    }
+    return config;
   };
 };

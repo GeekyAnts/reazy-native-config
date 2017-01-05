@@ -1,7 +1,7 @@
 {
-  "name": "reazy-configuration",
+  "name": "reazy-native-config",
   "description": "A simple configuration module for your Reazy application.",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "license": "MIT",
   "engines": {
@@ -13,19 +13,12 @@
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "config": "~1.21.0"
+    "react-native-config": "^0.2.1"
   },
   "devDependencies": {
     "babel-cli": "^6.1.4",
     "babel-core": "^6.1.4",
     "babel-plugin-transform-object-assign": "^6.1.18",
-    "babel-preset-es2015": "^6.1.4",
-    "eslint-if-supported": "^1.0.1",
-    "feathers": "^2.0.0",
-    "istanbul": "^1.1.0-alpha.1",
-    "mocha": "^3.0.0",
-    "nsp": "^2.2.0",
-    "rimraf": "^2.5.4",
-    "semistandard": "^9.1.0"
+    "babel-preset-es2015": "^6.1.4"
   }
 }
