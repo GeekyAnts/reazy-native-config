@@ -1,7 +1,7 @@
 {
   "name": "reazy-native-config",
   "description": "A simple configuration module for your Reazy application.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
