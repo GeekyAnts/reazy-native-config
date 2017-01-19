@@ -16,7 +16,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var debug = (0, _debug2.default)('reazy:configuration');
 
-exports.default = module.exports = function (conf) {
+exports.default = module.exports = function () {
   return function (serviceName) {
     var app = this;
 
