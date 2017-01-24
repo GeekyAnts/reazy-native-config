@@ -8,6 +8,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var env = _yeomanEnvironment2.default.createEnv();
 
-env.register(__dirname + '/generators/add', 'reazy-native-config-add');
+env.register(__dirname + '/generators/remove', 'reazy-native-config-remove');
 
-env.run('reazy-native-config-add', { disableNotifyUpdate: true });
+env.run('reazy-native-config-remove', { disableNotifyUpdate: true });
