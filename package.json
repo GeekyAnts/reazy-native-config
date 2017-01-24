@@ -22,6 +22,7 @@
   },
   "scripts": {
     "postadd": "dist/postadd.js",
+    "preremove": "dist/preremove.js",
     "build": "babel src --presets babel-preset-es2015 --out-dir dist",
     "start": "babel src --presets babel-preset-es2015 --watch --out-dir dist"
   },
