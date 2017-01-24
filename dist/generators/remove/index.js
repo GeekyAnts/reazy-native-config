@@ -29,7 +29,6 @@ function unlinkIOS(filename, projName) {
     fileContents = fileContents.replace('INFOPLIST_PREFIX_HEADER = "${CONFIGURATION_BUILD_DIR}/GeneratedInfoPlistDotEnv.h";', '');
     fileContents = fileContents.replace('INFOPLIST_PREPROCESS = YES;', '');
     try {
-      fs.writeFileSync(process.cwd() + '/here.txt', fileContents, { encoding: 'utf8' });
       fs.writeFileSync(filename, fileContents, { encoding: 'utf8' });
     } catch (err) {
       console.log('err', err);
