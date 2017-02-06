@@ -113,7 +113,7 @@ module.exports = generators.Base.extend({
 
     const self = this;
     this.log('Installing react-native-config as a project dependency...');
-    this.npmInstall(['react-native-config@https://github.com/GeekyAnts/react-native-config'], {save: true});
+    this.npmInstall(['react-native-config@0.3.1'], {save: true});
     // this.npmInstall(['reazy-native-config@0.0.3'], {save: true}, function () {
       self.spawnCommandSync('react-native', ['link', 'react-native-config']);
       linkIOS(iosProjPath, self.props.name);

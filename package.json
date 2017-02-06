@@ -24,11 +24,11 @@
     "postadd": "dist/postadd.js",
     "preremove": "dist/preremove.js",
     "build": "babel src --presets babel-preset-es2015 --out-dir dist",
-    "start": "babel src --presets babel-preset-es2015 --watch --out-dir dist"
+    "watch": "babel src --presets babel-preset-es2015 --watch --out-dir dist"
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "react-native-config": "https://github.com/GeekyAnts/react-native-config",
+    "react-native-config": "0.3.1",
     "ast-traverse": "^0.1.1",
     "chalk": "^1.1.1",
     "cross-spawn-async": "^2.1.9",
