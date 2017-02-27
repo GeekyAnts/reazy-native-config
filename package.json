@@ -26,7 +26,7 @@
   "reazy-setup": "dist/setup/index.js",
   "dependencies": {
     "chalk": "^1.1.1",
-    "reazy-setup-helper": "^0.0.3",
+    "reazy-setup-helper": "^0.0.5",
     "yeoman-generator": "^0.24.1"
   },
   "devDependencies": {
